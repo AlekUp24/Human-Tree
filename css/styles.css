@@ -1,0 +1,18 @@
+
+#title {
+    background-color: aliceblue;
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    font-family: "Lacquer";
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: 'Lacquer', sans-serif;
+}
+
+.img 
+{
+    border-radius: 40%;
+    width: 500px;
+}
