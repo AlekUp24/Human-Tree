@@ -1,18 +1,138 @@
 
 #title {
     background-color: aliceblue;
-    font-family: 'Pacifico', cursive;
+    font-family: "Fira Code" , monospace ;
 }
+
+#features {
+  text-align: center;
+  padding: 5%;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container-fluid {
+
+  padding: 3% 15%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: darkgrey;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: darkgrey;
+}
+
+/* Download Buttons */
+
+.download-btn {
+  margin: 3% 2% 2% 0;
+}
+
 
 h1 {
-    font-family: "Lacquer";
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.2;
-    font-family: 'Lacquer', sans-serif;
+    font-family: "Indie Flower", cursive ;
 }
 
-.img 
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight:bold;
+}
+
+/* Icons */
+
+.icon {
+  margin-bottom: 10px;
+}
+
+.icon:hover {
+ color: lightgreen;
+ transition-duration: 0.5s;
+ transform-style: preserve-3d;
+
+}
+
+/* Main Images */
+
+.img
 {
     border-radius: 40%;
     width: 500px;
+    transform: rotate(-20deg);
+
+}
+
+.img:hover {
+transition-duration: 1s;
+transform-style: preserve-3d;
+transform: rotate(0deg);
+}
+
+/* Nav Bar */
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+p {
+  color: grey;
+}
+
+/* Pictures */
+
+.pic {
+  border-radius: 50%;
+  width: 15%;
+  margin: 20px;
+
+}
+
+/* Press */
+
+#press {
+  background-color: aliceblue;
+  text-align: center;
+  padding-bottom: 3%;
+  }
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Testimonial */
+
+#testimonials {
+
+  text-align: center;
+  background-color: aliceblue;
 }

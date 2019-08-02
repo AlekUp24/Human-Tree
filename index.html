@@ -5,65 +5,74 @@
   <meta charset="utf-8">
   <title>Human Tree</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Lacquer|Pacifico&display=swap" rel="stylesheet">
-
+  <!---Google Fonts--->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code|Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <!---Bootstrap--->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
+  <!---Icons--->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
+  <!---JavaScript--->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
   <section id="title">
 
-    <!-- Nav Bar -->
+    <div class="container-fluid">
 
-    <nav class="navbar navbar-expand-md navbar-light fixed-top"  style="background-color: rgb(125, 255, 212)">
-  
-      <a class="navbar-brand" href="">Human Tree</a>
-     
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     
-     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-     
-       <ul class="navbar-nav ml-auto">
-           <li class="nav-item">
-               <a class="nav-link" href="">Contact</a>
-           </li>
-              <li class="nav-item">
-               <a class="nav-link" href="">Pricing</a>
-           </li>
-              <li class="nav-item">
-               <a class="nav-link" href="">Download</a>
-           </li>
-       </ul>
-   </div>    
-   </nav>
+      <!-- Nav Bar -->
 
+      <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: rgb(125, 255, 212);">
 
-    <!-- Title -->
-              <br><br><br>
-    <div>
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <h1>Let's plant trees! Only toghether we can save the Planet.</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+        <a class="navbar-brand" href="" style="font-size: 1.7rem; padding-left: 30px">humanTree</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
         </div>
-  
-      <div class="col-lg-6 col-md-12 col-sm-12">
-        <img class="img" img src="https://fbcd.co/product-lg/be0ad6e445c4023c3d2fe088a54a9aa3_resize.jpg" alt="iphone-mockup">
-      </div>
-      </div>
-    </div>
+      </nav>
 
+
+      <!-- Title -->
+      <br><br><br>
+      <div>
+        <div class="row">
+          <div class="col-lg-6 col-md-5 col-sm-12"><br><br>
+            <h1>Let's plant trees! Only together we can save the Planet.</h1><br>
+            <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-light btn-lg download-btn" style="border : 1px solid black"><i class="fab fa-google-play"></i> Download</button>
+          </div>
+
+          <div class="col-lg-6 col-md-4 col-sm-12">
+            <img class="img" img src="https://us.123rf.com/450wm/sylverarts/sylverarts1805/sylverarts180500060/101059437-stock-vector-vector-illustration-of-human-athlete-made-as-continuation-of-tree-with-strong-roots-and-surrounded-b.jpg?ver=6"
+              alt="humanTree">
+          </div>
+        </div>
+      </div>
+
+    </div>
   </section>
 
 
@@ -71,14 +80,28 @@
 
   <section id="features">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="row" style="margin: 10% 10% 10% 10%;">
+      <div class="col-lg-4 col-md-4 col-sm-12">
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+        <i class="far fa-user-circle icon fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>Locate people in your area, ready to act.</p>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+
+        <i class="fas fa-award icon fa-4x"></i>
+        <h3>Complete challenges.</h3>
+        <p>Show us your work and receive prizes from our sponsors.</p>
+
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+
+        <i class="fas fa-fist-raised icon fa-4x"></i>
+        <h3>Build a community.</h3>
+        <p>Create a community that can save the future of Earth.</p>
+      </div>
+    </div>
 
   </section>
 
@@ -87,13 +110,33 @@
 
   <section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
+    <div id="carouselopinions" class="carousel slide" data-ride="carousel" data-interval="5500" data-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>You can make new friends and help the environment at the same time. What else can you ask for?</h2>
+          <img class="pic" src="https://menhairstylesworld.com/wp-content/uploads/2018/12/Trademark-Rugged-Look.jpg" alt="Tom Hardy">
+          <em>Tom, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2>Making a difference was never so easy before. I recommend it to everyone who would like to help, but doesn't know how to start.</h2>
+          <img class="pic" src="https://hips.hearstapps.com/elleuk.cdnds.net/15/37/original/original-cb07e7e0-29f8-11e6-99bb-9d4f895ce27c-assets-elleuk-com-thumbs-23427-brad-pitt-getty-jpg.jpg" alt="Brad Pitt">
+          <em>Brad, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2>Trees exhale for us so that we can inhale them to stay alive. Can we ever forget that? Let us love trees and do the right thing here.</h2>
+          <img class="pic" src="http://www.femalefirst.co.uk/image-library/partners/bang/square/500/e/ellen-page-1159500e4106a27327533aec1a1376435c7febf4.jpg" alt="Elen Page">
+          <em>Elen, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselopinions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" style="outline: black"></span>
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+      </a>
+      <a class="carousel-control-next" href="#carouselopinions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+    </div>
 
   </section>
 
@@ -101,17 +144,17 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
 
   <!-- Pricing -->
 
-  <section id="pricing">
+  <!-- <section id="pricing">
 
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
@@ -141,25 +184,25 @@
     <p>Unlimited App Usage</p>
     <button type="button">Sign Up</button>
 
-  </section>
+  </section> -->
 
 
   <!-- Call to Action -->
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
+    <h3>Find the True Love of Your Life Today.</h3>
     <button type="button">Download</button>
     <button type="button">Download</button>
 
-  </section>
+  </section> -->
 
 
   <!-- Footer -->
 
   <footer id="footer">
 
-    <p>© Copyright 2018 TinDog</p>
+    <p>© Copyright 2019 humanTree</p>
 
   </footer>
 
