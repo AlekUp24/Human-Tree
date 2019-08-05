@@ -1,4 +1,9 @@
 
+#cta {
+  background-color: rgb(125, 255, 212);
+  padding-top: 20px;
+}
+
 #title {
     background-color: aliceblue;
     font-family: "Fira Code" , monospace ;
@@ -49,6 +54,10 @@ body {
   margin: 3% 2% 2% 0;
 }
 
+
+#footer {
+  text-align: right;
+}
 
 h1 {
     font-size: 2.5rem;
@@ -123,6 +132,21 @@ p {
   text-align: center;
   padding-bottom: 3%;
   }
+
+
+/* Pricing */
+
+#pricing {
+ padding: 100px;
+ text-align: center;
+ align-items: center;
+
+}
+
+.pricing-column {
+padding: 3%;
+
+}
 
 .press-logo {
   width: 15%;
