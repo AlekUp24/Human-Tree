@@ -1,4 +1,8 @@
 
+* {
+  scroll-behavior: smooth;
+}
+
 html,body
 {
     width: 100%;
@@ -136,7 +140,6 @@ padding: 0 18px;
 p {
   color: grey;
 }
-
 
 /* Pictures */
 
